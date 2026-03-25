@@ -14,22 +14,22 @@ cask "bookmux" do
   on_macos do
     on_intel do
       url "https://github.com/MrZoidberg/bookmux/releases/download/v#{version}/bookmux_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "21c6d34f0887387d1294347d53079773c36e6eec8f3e78ea3a060308128ad03d"
+      sha256 "b2e72420b7dbee545f26e698e6b0ce5c04f25fa00a20e08ed6e452ed36dba93c"
     end
     on_arm do
       url "https://github.com/MrZoidberg/bookmux/releases/download/v#{version}/bookmux_#{version}_Darwin_arm64.tar.gz"
-      sha256 "7a1ba453f55968ff939beafbace37f4e44e6a4d46e6bf837bbb468d5c37e88cc"
+      sha256 "040d59114ee752ebb5ca91e5990fe55634b967fe6fcd173da40f533196728f62"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/MrZoidberg/bookmux/releases/download/v#{version}/bookmux_#{version}_Linux_x86_64.tar.gz"
-      sha256 "2aae886e1680551f97a8fafc9699f846e52d1d0bd3445b53d784346bdc0f6702"
+      sha256 "5ef251a26ee4f9d0358de8b40a65a3cd5e53e009c5a52c3ffb78126037e35522"
     end
     on_arm do
       url "https://github.com/MrZoidberg/bookmux/releases/download/v#{version}/bookmux_#{version}_Linux_arm64.tar.gz"
-      sha256 "02405c382efef2c363727c00592f27a97c850a754a368f998d346618f17ef445"
+      sha256 "7b3f9257c134e7e8d9c715e457c1478f5efe3312c92f3c6af9dadd02cb434dbd"
     end
   end
 
