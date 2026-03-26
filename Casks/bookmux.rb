@@ -3,7 +3,7 @@ cask "bookmux" do
   name "bookmux"
   desc "A CLI tool for merging audio tracks into M4B audiobooks."
   homepage "https://github.com/MrZoidberg/bookmux"
-  version "0.1.12"
+  version "0.1.13"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "bookmux" do
   on_macos do
     on_intel do
       url "https://github.com/MrZoidberg/bookmux/releases/download/v#{version}/bookmux_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "f64938b46db7033e3f5720d91be99df58896120d47d3144004d3e4f2ad553d8d"
+      sha256 "96aeefca85eaf6bc2f4e8af1eee103be4e061801172aaf921f84fc0232185155"
     end
     on_arm do
       url "https://github.com/MrZoidberg/bookmux/releases/download/v#{version}/bookmux_#{version}_Darwin_arm64.tar.gz"
-      sha256 "b29cae23e54169b2f97ddbcfe07ce5909ba3f3401083941058bd5e19a8048219"
+      sha256 "566965d949478d6a373b32f74973f8746aa442b88236f760d9c47ade16b2729e"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/MrZoidberg/bookmux/releases/download/v#{version}/bookmux_#{version}_Linux_x86_64.tar.gz"
-      sha256 "3825037b29b4d15c5d6c2d41adeadeba29142fd29e0dc34f5a77e6a2a1548ab9"
+      sha256 "42620a61e37544199e1172fb6711e5835dbd3cfd7e43d8f07fcf161715502cf8"
     end
     on_arm do
       url "https://github.com/MrZoidberg/bookmux/releases/download/v#{version}/bookmux_#{version}_Linux_arm64.tar.gz"
-      sha256 "22dcdb2e6a571af447829094328c140fc5bea2354cd60e9775caab0b85e5aa52"
+      sha256 "813266872fa25b547248564161cef3628afc4afc59132a4502d3b4193b2ff88c"
     end
   end
 
